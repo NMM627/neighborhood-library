@@ -6,12 +6,10 @@ public class NeighborhoodLibrary {
 
         Book[] books = new Book[5];
         books[0] = new Book(1, "9780062082350", "American Sniper");
-        books[1] = new Book(2, "9781501111105", "Grit: The Power of Passion and Perseverance");
-        books[2] = new Book(3, "9781592408412",
-                "Daring Greatly: How the Courage to Be Vulnerable Transforms the Way We Live, Love, Parent, and Lead");
-        books[3] = new Book(4, "9780062457714",
-                "The Subtle Art of Not Giving a F*ck: A Counterintuitive Approach to Living a Good Life");
-        books[4] = new Book(5, "9781878424310", "The Four Agreements: A Practical Guide to Personal Freedom");
+        books[1] = new Book(2, "9780545709392", "Adrift");
+        books[2] = new Book(3, "9780747538486", "Harry Potter And The Chamber Of Secrets");
+        books[3] = new Book(4, "9780771084478", "All Roads Home : Life On And Off The Ice");
+        books[4] = new Book(5, "9781629374109", "If These Walls Could Talk: Pittsburgh Penguins: Stories from the Pittsburgh Penguins Ice, Locker Room, and Press Box"
         Scanner scanner = new Scanner(System.in);
 
         while (true) {
